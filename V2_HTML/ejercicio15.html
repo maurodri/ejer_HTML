@@ -1,0 +1,56 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
+    FICHA: 2558346
+    PROGRAMO: Analisis y Desarrollo de Software
+    AUTOR: Wilson Mauricio Rodriguez Rodriguez
+    objetivo>: uso de las etiquetas HTML: p, h1,a a href, h3, img src.
+    FECHA CREACION:31 DE Julio de 2022
+    VERSION: 2.0.0
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>ejercicio 15</title>
+</head>
+
+<body>
+    <h3>Informacion sobre el producto</h3>
+    <form action="/php/insertar_subasta.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <label for="nombre">Nombre</label><br />
+            <input type="text" name="nombre" id="nombre" size="50" maxlength="250" />
+            <br /><br />
+            <label for="descripcion">Descripcion</label><br />
+            <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+            foto<input type="file" name="foto" />
+            <br /><br />
+            <input name="contador" type="checkbox" value="si" />Añadir contador de vistas
+        </fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <label for="Precio">Precio</label>
+            <input type="text" size="5" id="Precio" name="Precio" />&euro;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="impuestos">Impuestos</label>
+            <select id="impuestos" name="impuestod">
+                <option value="4">4%</option>
+                <option value="7">7%</option>
+                <option value="16">16%</option>
+                <option value="25">25%</option>
+            </select>
+            <br /><br />
+            <label>Promoción</label><br />
+            <input type="radio" name="promocion" value="ninguno" checked="checked" />ninguno<br />
+            <input type="radio" name="promocion" value="portes" />Transporte gratuito<br />
+            <input type="radio" name="promocion" value="descuento" />Descuento 5%
+        </fieldset>
+    </form>
+</body>
+
+</html>
