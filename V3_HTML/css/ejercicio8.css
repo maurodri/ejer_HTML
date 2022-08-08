@@ -1,0 +1,20 @@
+.inf1{
+    font-family: cursive;
+    font-size: 15px;
+    color: #FF8A39;
+}
+
+#tit1{
+    font-family:cursive;
+    font-size: 35px;
+    color: #FF5738;
+}
+
+#container1{
+    background-color: #19FAC4;
+    margin-left: auto;
+    margin-right: auto;
+    height: 570px;
+    width: 300px;
+
+}
