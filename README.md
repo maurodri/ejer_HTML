@@ -21,12 +21,13 @@
 ## V_3 HTML
 >*ESTA VERSION DE HTML5 FUE VINCULADA A ARCHIVOS CSS PARA EL DISEÑO DE LA WEB DONE SE AFECTO LA FAMILIA DE TEXTO, COLOR, MARGENES ESTOS CAMBIOS SON MAS VISIBLES MAS LAS IMAGENES QUE ESTA USA.* 
 
-proceso de actualizacion:
+Aquí hay un diagrama de flujo simple:
+Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    html v_1.0.0-->html5 v_2.0.0;
-    html5 v_2.0.0-->html5 v_2.0.0;
-   
-    
+    html 1-->html 5;
+    html 5-->html 5+ css;
+    html 5+ css-->prueba;
+    C-->D;
 ```
