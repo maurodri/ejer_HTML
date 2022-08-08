@@ -1,13 +1,17 @@
-# ejercicios_HTML
 
-```<sub> ENTIDAD: Centro de Biotecnologia Agropecuaria
+
+
+# ejercicios_HTML 
+
+```
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
     FICHA: 2558346
     PROGRAMO: Analisis y Desarrollo de Software
     AUTOR: Wilson Mauricio Rodriguez Rodriguez
     objetivo>: uso de las etiquetas HTML: p
     FECHA CREACION:7 de AGOSTO de 2022
     VERSION: 3.0.0
-
+```
 ## V_1 HTML
 >*EN ESTA VERSION SE PUBLICO EJERCICOS XHTML EN DONDE LA VERSION ES DESACTUALIZADA MAS LAS IMAGENES QUE ESTA USA.*
 
@@ -16,3 +20,13 @@
 
 ## V_3 HTML
 >*ESTA VERSION DE HTML5 FUE VINCULADA A ARCHIVOS CSS PARA EL DISEÑO DE LA WEB DONE SE AFECTO LA FAMILIA DE TEXTO, COLOR, MARGENES ESTOS CAMBIOS SON MAS VISIBLES MAS LAS IMAGENES QUE ESTA USA.* 
+
+proceso de actualizacion:
+
+```mermaid
+graph TD;
+    html v_1.0.0-->html5 v_2.0.0;
+    html5 v_2.0.0-->html5 v_2.0.0;
+   
+    
+```
