@@ -1,0 +1,83 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
+    FICHA: 2558346
+    PROGRAMO: Analisis y Desarrollo de Software
+    AUTOR: Wilson Mauricio Rodriguez Rodriguez
+    objetivo>: uso de las etiquetas HTML: p, h1,a a href, h3, img src.
+    FECHA CREACION:7 de AGOSTO de 2022
+    VERSION: 3.0.0
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ejercicio12</title>
+    <link rel="stylesheet" href="./css/ejercicio12.css">
+</head>
+
+<body>
+    <div id="container1">
+        <h3 id="sub1">Comparativa de reproductores MP3</h3>
+        <table>
+            <caption id="sub2">Tabla conparativa de las características técnicas de los reproducctores MP3</caption>
+            <tr>
+
+                <th abbr="Reproductor mini" scope="col" colspan="3">
+                    <img src="./img/mp3_pequeno_blanco.png" alt="Imagen de reproductor MP3 pequeño de color blanco">
+                    <img src="./img/mp3_pequeno_negro.png" alt="Imagen de reproductor MP3 pequeño de color negro">
+                    <br><strong class="tex1">MP3 mini</strong>
+                </th>
+                <th abbr="Reproductor estándar" scope="col" colspan="3">
+                    <img src="./img/mp3_grande_blanco.png" alt="Imagen de reproductor MP3 grande de color blanco">
+                    <img src="./img/mp3_grande_negro.png" alt="Imagen de reproductor MP3 grande de color negro">
+                    <br><strong class="tex1">MP3 grande</strong>
+                </th>
+            </tr>
+            <tr class="in1">
+                <th scope="row" abbr="Capacidad" class="tex1">capacidad de almacenamiento</th>
+                <td>4 GB<br>(1.000 canciones)</td>
+                <td>8 GB<br>(2.000 canciones)</td>
+                <td>16GB<br>(4.000 canciones)</td>
+                <td>30GB<br>(7.000 canciones)</td>
+                <td>80GB<br>(20.000canciones)</td>
+            </tr>
+            <tr>
+                <th scope="row" abbr="colores disponibles" class="tex1">colores</th>
+                <td>
+                    <img src="./img/color_blanco.png" alt="color blanco">
+                </td>
+                <td>
+                    <img src="./img/color_negro.png" alt="color blanco">
+                    <img src="./img/color_verde.png" alt="color verde">
+                    <img src="./img/color_azul.png" alt="color azul">
+                    <img src="./img/color_rosa.png" alt="color rosa">
+
+                </td>
+                <td>
+                    <img src="./img/color_negro.png" alt="color negro">
+                </td>
+                <td colspan="2">
+                    <img src="./img/color_blanco.png " alt="color blanco">
+                    <img src="./img/color_negro.png " alt="color negro">
+
+                </td>
+            </tr>
+            <tr class="in1">
+                <th scope="row" abbr="Tamaño de pantalla" class="tex1">pantalla</th>
+                <td colspan="3">LCD de 3cm (diagonal) con retroiluminación</td>
+                <td colspan="2">LCD de 6cm (diagonal) con retroiluminación</td>
+            </tr>
+            <tr class="in1">
+                <th rowspan="2" scope="row" abbr="Tiempo de carga" class="tex1">Tiempo de carga</th>
+                <td rowspan="2" colspan="3">Unas 3 horas</td>
+                <td colspan="2">Unas 4 horas</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="in1">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
